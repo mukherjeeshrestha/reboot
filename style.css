@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.row h1 {
+    font-weight: bolder;
+    padding-top: 20%;
+    font-size: 3rem;
+}
+
+.row p {
+    font-size: 1rem;
+    width: 80%;
+
+}
+
+.btn {
+    display: inline-block;
+    background: #610bd9;
+    color: #fff;
+    padding: 8px 25px;
+    margin: 30px 0;
+    border-radius: 15px;
+    ;
+}
+
+.btn:hover {
+    transition: background 0.5s;
+    background-color: #a260fe;
+    cursor: pointer;
+    color: #fff;
+}
+
+.landing {
+    background-color: #D0f222;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+
+.category .row {
+    justify-content: center;
+    padding: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    gap: 30px;
+}
+
+.featured .row {
+    padding-bottom: 10%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.featured img {
+    width: 100%;
+}
+
+h4 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.featured h2 {
+    font-weight: bold;
+    line-height: 60px;
+
+}
+
+.featured span {
+    /* font-weight: bold;
+    line-height: 60px;
+    text-decoration: underline;
+    text-decoration-color:#a260fe;
+    text-decoration-thickness: 5px; */
+    padding-bottom: 3px;
+    border-bottom: 5px solid #a260fe;
+}
+
+.pro:hover {
+    cursor: pointer;
+}
+
+.bx {
+    color: rgb(226, 143, 1);
+}
+
+.featured .col-lg-3:hover {
+    transform: translateY(-7px);
+    transition: transform 0.5s;
+}
+
+.exclusive img {
+    width: 50%;
+
+}
+
+.texts h1 {
+    padding-top: 0;
+}
+
+.texts {
+    padding-top: 5%;
+}
+
+.exclusive {
+    padding: 20px;
+    /* background-color: #cff222c2; */
+    background: radial-gradient(#fff, #cff222);
+    margin-top: 50px;
+}
+
+.exclusive h1,
+.exclusive small,
+.exclusive img:hover {
+    cursor: pointer;
+}
+
+.bxs-quote-left {
+    font-size: 50px;
+    color: gray;
+}
+
+/* -------------------testimonial--------------- */
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+.snip1533 {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+    color: #5e5c5c;
+    display: inline-block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    margin: 100px 10px 10px;
+    max-width: 310px;
+    min-width: 250px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 5px solid #a260fe;
+}
+.snip1533:hover{
+    border-top: 5px solid #89a403;
+    cursor: pointer;
+}
+.bx{
+    color: gray;
+}
+.snip1533 *,
+.snip1533 *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.snip1533:hover {
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+
+.snip1533 figcaption {
+    padding: 10%;
+}
+
+.snip1533 figcaption:before {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    display: none;
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    font-size: 32px;
+    font-style: normal;
+    left: 50%;
+    line-height: 60px;
+    position: absolute;
+    top: -30px;
+    width: 60px;
+}
+
+figcaption img {
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.snip1533 h3 {
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.snip1533 blockquote {
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+.brands {
+    margin: 50px auto 50px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #0f0f0f;
+    color: #f2f2f2;
+}
+
+footer h6 {
+    font-weight: lighter;
+}
+
+.butn {
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.butn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+footer .wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+footer .item {
+    width: 100%;
+    text-align: center;
+}
+
+footer .item a {
+    font-size: 85%;
+    color: gray;
+    text-decoration: none;
+}
+footer img{
+    border-radius: 5px;
+}
+
